@@ -12,13 +12,13 @@ section {
 	height: 200px;
 }
 .second div:nth-child(4) {
-	order: 1
+	order: -1
 }
 .third div:nth-child(4) {
 	order: 1
 }
 .third div:nth-child(2) {
-	order: -1
+	order: 1
 }
 
 .bis {
@@ -42,19 +42,19 @@ div {
 	color: #fff;
 }
 div:first-of-type {
-	background: dodgerblue;
+	background: green;
 }
 div:nth-of-type(2) {
-	background: orange;
+	background: red;
 }
 div:nth-of-type(3) {
-	background: olivedrab;
+	background: silver;
 }
 div:nth-of-type(4) {
-	background: hotpink;
+	background: olive;
 }
 div:nth-of-type(5) {
-	background: slategray;
+	background: Maroon;
 }
 
 nav a {
